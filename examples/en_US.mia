@@ -1,0 +1,9 @@
+#(english)
+
+#[errors]
+no_name=You did not input a name!
+no_age=You did not input an age!
+
+#[success]
+purchase_success=You successfully purchased the item!
+purchase_secret=Woah! You secretly purchased it!

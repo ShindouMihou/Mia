@@ -1,0 +1,7 @@
+#[errors]
+no_name=Hindi ka nag-input ng isang pangalan!
+no_age=Hindi ka nag-input ng edad!
+
+#[success]
+purchase_success=Matagumpay mong nabili ang item!
+purchase_secret=Woah! Palihim mo itong binili!
