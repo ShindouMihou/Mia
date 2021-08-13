@@ -1,4 +1,4 @@
-## Mia
+## 🌠 Mia
 A simple, easy-to-use, pure-Java and dependency-free localization library.
 
 ## ❓ What is Mia?
@@ -21,9 +21,9 @@ implementation 'pw.mihou:Mia:1.0.0'
 ```
 
 ## 🗯 How does Mia files look?
-You can have a glance at the `examples` folder for a full glance of what a `.mia` file look but in general, Mia has 
+You can have a glance at the [`examples`](https://github.com/ShindouMihou/Mia/tree/master/examples) folder for a full glance of what a `.mia` file look but in general, Mia has 
 a few rules in place similar to a `.env` file:
-- A `.mia` file can tell Mia to use a different name by adding `#(some_name_here)` line inside the file, as seen on `en_US.mia` file.
+- A `.mia` file can tell Mia to use a different name by adding `#(some_name_here)` line inside the file, as seen on [`en_US.mia`](https://github.com/ShindouMihou/Mia/blob/master/examples/en_US.mia) file.
 - A `.mia` file can have no categories at all but they will be listed as `no_category` by the parser.
 - A `.mia` file **MUST HAVE A KEY-VALUE** in the format: `key=value` **without quotations**.
 - A `.mia` file can have categories by specifying them before the items: `#[some_category_here]`.
